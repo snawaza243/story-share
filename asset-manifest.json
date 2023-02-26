@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/story-share/static/css/main.5e6a3a01.css",
+    "main.js": "/story-share/static/js/main.c30a47f2.js",
+    "index.html": "/story-share/index.html",
+    "main.5e6a3a01.css.map": "/story-share/static/css/main.5e6a3a01.css.map",
+    "main.c30a47f2.js.map": "/story-share/static/js/main.c30a47f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e6a3a01.css",
+    "static/js/main.c30a47f2.js"
+  ]
+}
