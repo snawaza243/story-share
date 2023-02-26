@@ -1,29 +1,31 @@
-.header{
+.header {
     margin-top: 60px;
-    
+
 }
 
-.headerTitles{
+.headerTitles {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: 'Lora', serif;
     color: #444;
 }
-.headerTitleSm{
+
+.headerTitleSm {
     position: absolute;
     top: 15%;
     font-size: 20px;
 }
-.headerTitleLg{
-    position:absolute;
+
+.headerTitleLg {
+    position: absolute;
     top: 18%;
     font-size: 80px;
     color: aqua;
     z-index: 999;
 }
 
-.headerImg{
+.headerImg {
     width: 100%;
     height: 450px;
     margin-top: 80px;
@@ -31,3 +33,4 @@
     z-index: -1;
 
 }
+
