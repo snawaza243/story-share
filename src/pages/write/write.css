@@ -1,0 +1,107 @@
+.write {
+    padding-top: 50px;
+    margin: 0 10%;
+    margin-bottom: 15px;
+}
+
+.writeForm {
+    position: relative;
+    /* background-color: aqua; */
+}
+
+.writeImg {
+    /* margin-left: 150px; */
+    width: 70vw;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.writeFormGroup {
+    margin-top: 15px;
+    /* margin-left: 150px; */
+    margin: 0 10%;
+    display: flex;
+    align-items: center;
+
+}
+
+.writeIcon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: rgb(185, 185, 185);
+    cursor: pointer;
+}
+
+.writeInput {
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+}
+
+
+.writeInput:focus {
+    outline: none;
+}
+
+.writeText {
+    font-size: 20px;
+    height: 100vh;
+}
+
+.writeSubmit {
+    position: absolute;
+    top: 35%;
+    right: -90px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    z-index: 999;
+}
+
+#postDate {
+    width: 150px;
+}
+
+#fileInputLink {
+    width: 100px;
+}
+
+input label {
+    width: fit-content;
+    width: 50px;
+}
+
+#postCategory {
+    width: 30%;
+}
+
+.topWriteClassMeta{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 10px;
+    margin-left: 50px;
+}
+.writeFormGroup  label{
+    width: 50px !important;
+}
+
+#postDate{
+    width: 110px;
+}

@@ -1,0 +1,59 @@
+.contact {
+    /* height: calc(100vh-50px); */
+    height: calc(92.5vh );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(255, 255, 255, 0.5),
+            rgb(255, 255, 255, 0.5)),
+        url("https://www.pixelstalk.net/wp-content/uploads/images5/Windows-11-Default-Wallpaper-1-scaled.jpg");
+    background-size: cover;
+}
+
+.contactTitle {
+    font-size: 50px;
+}
+
+.contactForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm>label {
+
+    margin: 10px 0px;
+
+}
+
+input, label{
+    width: 350px;
+}
+.contactInput {
+    padding: 10px;
+    border-color: white;
+    border: none;
+}
+
+.contactButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.contactLoginButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}

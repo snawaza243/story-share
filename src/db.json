@@ -1,0 +1,38 @@
+{
+  "user_r_y_s": [
+    {
+      "user_name": "admin",
+      "user_pass": "ite123"
+    },
+    {
+      "user_name": "user",
+      "user_pass": "123"
+    }
+  ],
+  "post": [
+    {
+      "id": 1,
+      "post_img": "https://m.media-amazon.com/images/I/91d2L3WsgEL._SL1500_.jpg",
+      "post_cat": "Music Life",
+      "post_title": "How to build a blog",
+      "post_date": "1 hour ago",
+      "post_desc": "To build a blog site . The very necessary thing to learn HTML, CSS Ja"
+    },
+    {
+      "post_img": "",
+      "post_cat": "Friendship",
+      "post_title": "A True Friendship",
+      "post_date": "2023-02-09",
+      "post_desc": "Friendship is a term used to denote co-operative and supportive behavior between two or more people. Friends are commonly thought to be people who share similar interests, opinions, and experiences. But what exactly is friendship?\n\nThe dictionary defines friendship as “the state of being friends; the relationship between friends.” But this definition doesn’t really capture the true essence of friendship. Friendship is so much more than just a relationship between people. Friendship is a bond that is built on trust, respect, and unconditional love. Friendship is a relationship in which both parties are equals, and both parties are free to be themselves. Friendship is a safe place where you can be yourself without judgement. Friendship is a place where you can be honest and open without fear of rejection. Friendship is a relationship that is built on mutual understanding and support.\n\nTrue friendship is rare. It is a precious gift that should be cherished and treasured. Friendship is something that is to be treasured because it is not something that everyone experiences in their lifetime. Friendship is something that is earned through trust, respect, and loyalty.\n\nA true friend is someone who is always there for you, no matter what. A true friend is someone who supports you through thick and thin. A true friend is someone who is always willing to lend a listening ear or a helping hand. A true friend is someone who loves you unconditionally and accepts you for who you are. A true friend is someone who makes you laugh when you want to cry, and someone who cries with you when you are sad. A true friend is someone who sees the best in you, even when you yourself cannot see it.\n\nA true friend is someone who will never leave your side, no matter what. A true friend is someone who will stick by you through the good times and the bad times. A true friend is someone who will never give up on you, no matter how hard things get. A true friend is someone who will always be there for you, no matter what happens.\n\nFriendship is a beautiful thing. It is something to be cherished and treasured. It is something that can make your life infinitely better. If you are fortunate enough to have even one true friend in your life, then consider yourself blessed.",
+      "id": 2
+    },
+    {
+      "post_img": "",
+      "post_cat": "Life",
+      "post_title": "A Beautiful Life",
+      "post_date": "2023-02-26",
+      "post_desc": "A beautiful life is something that we all strive for. It is a life that is full of love, happiness, and contentment. It is a life that is free from worry, stress, and anxiety. It is a life that we can all enjoy and be proud of.\n\nThere are many things that contribute to a beautiful life. First and foremost, it is important to have a positive outlook on life. This means looking at the bright side of things, even when things are tough. It means believing that good things will happen, even when things seem down. Having a positive outlook is essential to a beautiful life.\n\nAnother important ingredient for a beautiful life is having supportive relationships. This includes family, friends, and romantic partners. These are the people who will be there for us during the good times and the bad times. They are the ones who will help us through tough times and celebrate with us during the good times. Having supportive relationships is essential to a beautiful life.\n\nFinally, it is important to live a life that is meaningful and fulfilling. This means finding something that we are passionate about and pursuing it. It means doing things that make us happy and living each day to the fullest. Living a meaningful and fulfilling life is essential to a beautiful life.\n\nWhat makes a beautiful life is different for everyone. However, there are some important things that we can all do to create a beautiful life for ourselves. By having a positive outlook, pursuing meaningful activities, and developing supportive relationships, we can all create a beautiful life that we can be proud of.",
+      "id": 3
+    }
+  ]
+}

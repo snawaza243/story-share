@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+}
+
+.top {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    z-index: 999;
+
+}
+
+.topLeft,
+.topRight {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.topCenter {
+    flex: 6;
+}
+
+.topIcon {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #444;
+
+}
+
+.topImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* object-fit: contain; */
+    object-fit: fill;
+
+    color: blue;
+}
+
+.topList {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.topListItem {
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    text-decoration: none;
+    color: rebeccapurple;
+}
+
+.topListItem>a {
+    font-weight: 400;
+    text-decoration: none;
+    padding: 5px;
+    color: #000;
+}
+
+.topListItem>a:hover {
+    transition: 0.4s;
+    /* transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    /* text-decoration: none; */
+    /* background-color: aqua; */
+    border-radius: 10px;
+    transition: ease-in-out 0.3s;
+    color: rgb(255, 255, 255);
+    transition: ease-in-out 0.3s;
+    transition: 0.4s;
+    cursor: pointer;
+    background-color: aqua;
+
+}
+
+.topSearchIcon {
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.topIcon:hover {
+    color: aqua;
+    transition: ease-in-out 0.3s;
+    transition: 0.4s;
+    cursor: pointer;
+}
