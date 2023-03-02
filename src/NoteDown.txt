@@ -4,3 +4,4 @@ Get-ExecutionPolicy
 
 Get-ExecutionPolicy -list
 
+json-server --watch db.json

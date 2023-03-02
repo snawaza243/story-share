@@ -13,6 +13,8 @@
     font-family: 'Josefin Sans', sans-serif;
     z-index: 999;
 
+    /* backdrop-filter: blur(5px); */
+
 }
 
 .topLeft,

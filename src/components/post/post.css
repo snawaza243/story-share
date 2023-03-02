@@ -48,14 +48,38 @@
 
 .postDesc {
     font-family: 'Varela Round'serif;
-    font-size: 14px;
-    color: #444;
-    line-height: 24px;
+    font-size: 16px;
+    color: #000000;
+    line-height: 28px;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-    height: 100px;
+    /* -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical; */
+    /* height: 100px; */
     text-align: justify;
+    padding: 5px;
+
+}
+
+
+details{
+
+    transition: ease-in-out 0.4s;
+    padding: 5px;
+    position:-webkit-sticky;
+    z-index: 999;
+}
+details:hover{
+    background-color:  aqua;
+    color: #fff;
+    transition: ease-in-out 0.4s;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+details:active{
+    color: #000000;
+    transition: ease-in-out 0.2s;
+
 }

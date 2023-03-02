@@ -34,13 +34,9 @@ function App() {
     const [itemInput, setItemInput] = useState('');
     const [typeInput, setTypeInput] = useState('');
 
-
-
-
     const [list, setList] = useState([]);
 
     const mounted = useRef(true);
-
 
     useEffect(() => {
         mounted.current = true;
@@ -82,16 +78,36 @@ function App() {
 
         alert("You have submitted successfully")
     }
+
+    function getRandomItem(arr) {
+        // get random index value
+        const randomIndex = Math.floor(Math.random() * arr.length);
+        // get random item
+        const item = arr[randomIndex];
+
+        return item;
+    }
+    const array = [
+        'https://www.t.ly/x7Op',
+        'https://www.t.ly/FyMA', 
+        'https://www.t.ly/TJKR', 
+        'https://www.t.ly/ZtUc',
+        'https://www.t.ly/QPuI',
+        'https://www.t.ly/UkWh',
+        'https://www.t.ly/BBnW'
+
+    ];
+    const result = getRandomItem(array);
+
+
     return (
         <>
             <div className="wrapper">
-                <center><h1>Explore the real stories</h1></center>
-
+                <center><h1>Here is your stories....</h1></center>
                     {list.map(item =>
                         <div className="post" key={item.i}>
                             {/* <img className='postImg' src={item.post_img} alt={item.post_id} /> */}
-                            <img className='postImg' src="https://t.ly/BBnW" alt={item.post_id} />
-
+                            <img className='postImg' src={result} alt={item.post_id} />
                             <div className="postInfo">
                                 <div className="postCats">
                                     <span className="postCat">{item.post_cat}</span>
@@ -99,7 +115,12 @@ function App() {
                                 <span className='postTitle'>{item.post_title}</span>
                                 <span className="postDate">{item.post_date}</span>
                             </div>
-                            <p className='postDesc'>{item.post_desc}</p>
+
+                            <details>
+                                <summary>Read Now</summary>
+                                <p className='postDesc'>{item.post_desc}</p>
+                            </details>
+
                         </div>
                     )}
                 {/* {alert && <h2>Submitted successful</h2>} */}

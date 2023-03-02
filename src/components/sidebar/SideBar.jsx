@@ -1,23 +1,20 @@
 import React from 'react'
 import './sidebar.css'
+import adminAvatar from './admin.png'
 function SideBar() {
   return (
     <>
-    <div className="sidebar">
+      <div className="sidebar">
         <div className="sidebarItem">
           <span className="sidebarTitle">
-            ABOUT ADMIN
+            ADMIN
           </span>
-          <img className='sidebarTitleImg' src="https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg" alt="" />
-          <p>
-          Hello Dear! <br />
-          Welcome To "Daily Story Space"
-Your World Of natural stories Awaits. <br /> 
-We’re so glad you’re here! You are now part of a growing community of this creating, collaborating, and connecting across the globe via real and emotional stories.
-Whether you’ve joined to share or just to explore the other ones story</p>
+          <img className='sidebarTitleImg' src={adminAvatar} alt="" />
+          <p className='authorWords'>
+            Hello Dear! <br /> Welcome To <em>"Daily Story Space"</em>. Your World Of natural stories Awaits. We’re so glad you’re here! You are now part of a growing community of this creating, collaborating, and connecting across the globe via real and emotional stories. Whether you’ve joined to share or just to explore the other ones story. <br /></p>
         </div>
         <div className="sidebarItem">
-        <span className="sidebarTitle">
+          <span className="sidebarTitle">
             CATEGORIES
           </span>
           <ul className="sidebarList">
@@ -31,17 +28,17 @@ Whether you’ve joined to share or just to explore the other ones story</p>
         </div>
 
         <div className="sidebarItem">
-        <span className="sidebarTitle">
+          <span className="sidebarTitle">
             FOLLOW US
           </span>
           <div className="sidebarSocial">
-          <i className='sidebarIcon fab fa-facebook-square'></i>
-          <i className='sidebarIcon fab fa-twitter-square'></i>
-          <i className='sidebarIcon fab fa-pinterest-square'></i>
-          <i className='sidebarIcon fab fa-instagram-square'></i>
+          <a target={'_blank'}  href="https://www.facebook.com/snawaza243"><i className='topIcon tIs fab fa-facebook-square'></i></a>
+          <a target={'_blank'}  href="https://facebook.com/snawaza243"><i className='topIcon tIs fab fa-twitter-square'></i></a>
+          <a target={'_blank'}  href="https://www.pinterest.com/snawaza243"><i className='topIcon tIs fab fa-pinterest-square'></i></a>
+          <a target={'_blank'}  href="https://www.instagram.com/snawaza243"><i className='topIcon tIs fab fa-instagram-square'></i></a>
           </div>
         </div>
-    </div>
+      </div>
     </>
   )
 }

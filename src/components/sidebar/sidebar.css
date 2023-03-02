@@ -27,7 +27,6 @@
     width: 80%;
     border-top: 1px solid rgba(150, 150, 150, 0.867);
     border-bottom: 1px solid rgba(150, 150, 150, 0.867);
-
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
     color: #222;
@@ -38,7 +37,8 @@
 
 
 .sidebarTitleImg{
-    width: 200px;
+    width: 150px;
+    padding: 10px;
 }
 
 
@@ -75,4 +75,17 @@
     font-size: 16px;
     margin-left: 10px;
     cursor: pointer;
+}
+
+.tIs a:hover{
+    color: #000;
+}
+
+.authorWords{
+    text-align: justify;
+}
+
+
+.sidebarSocial a i:hover {
+    color: rgb(6, 211, 211);
 }

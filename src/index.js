@@ -4,7 +4,10 @@ import ReactDOM from 'react-dom/client';
 // import App from './App';
 // import reportWebVitals from './reportWebVitals';
 import BlogApp from './BlogApp'
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// import BlogApp from './components/footer/Footer'
+
+const root = 
+ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BlogApp/>
