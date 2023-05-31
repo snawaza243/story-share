@@ -1,16 +1,16 @@
+![Screenshot_20230227_224214](https://user-images.githubusercontent.com/91892524/221652221-cce514c6-8489-48d1-9a3b-06f5b484fb14.png)
+![Screenshot_20230228_000023](https://user-images.githubusercontent.com/91892524/221652282-4f55f0a9-3435-41df-93f7-9064d3ba4b24.png)
+
+
+
 <!-- json-server watch db.json -->
 
-
 # Getting Started with Create React App
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
-
 In the project directory, you can run:
 
 ### `npm start`
-
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
