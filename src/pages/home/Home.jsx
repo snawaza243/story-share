@@ -13,7 +13,6 @@ function Home() {
         <Posts />
         <SideBar />
       </div>
-      <Footer/>
     </>
   )
 }

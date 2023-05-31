@@ -22,32 +22,6 @@ function Footer() {
         document.documentElement.scrollTop = 0;
     }
     return (
-        //     <MDBContainer fluid>
-        //     <div
-        //       classNameName='d-flex justify-content-center align-items-center'
-        //       style={{ height: '100vh' }}
-        //     >
-        //       <div classNameName='text-center'>
-        //         <img
-        //           classNameName='mb-4'
-        //           src='https://mdbootstrap.com/img/logo/mdb-transparent-250px.png'
-        //           style={{ width: 250, height: 90 }}
-        //         />
-        //         <h5 classNameName='mb-3'>
-        //           Thank you for using our product. We're glad you're with us.
-        //         </h5>
-        //         <p classNameName='mb-3'>MDB Team</p>
-        //         <MDBBtn
-        //           tag='a'
-        //           href='https://mdbootstrap.com/docs/standard/getting-started/'
-        //           target='_blank'
-        //           role='button'
-        //         >
-        //           Start MDB tutorial
-        //         </MDBBtn>
-        //       </div>
-        //     </div>
-        //   </MDBContainer>
 
         <>
             <footer className="bg-dark text-center text-white">
@@ -98,7 +72,7 @@ function Footer() {
                         </form>
                     </section>
 
-                    <section className="footerPages">
+                    {/* <section className="footerPages">
                         <form action="">
                             <div className="row d-flex justify-content-center">
                                 <div className="subscriptionButton d-flex justify-content-center">
@@ -111,7 +85,7 @@ function Footer() {
                                 </div>
                             </div>
                         </form>
-                    </section>
+                    </section> */}
                 </div>
                 <div className="text-center p-3">
                     <a className="text-white text-decoration-none" href="https://snawaza243.github.io/story-share/">Daily Story Bank</a>
